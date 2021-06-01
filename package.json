@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json"
+    "tsc": "tsc -p tsconfig.json --declaration && tsc -p tsconfig-cjs.json --declaration"
   },
   "keywords": [],
   "author": "",
